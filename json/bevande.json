@@ -1,0 +1,69 @@
+[
+    {
+        "non-alcoholic": [
+            {
+                "name": "Acqua Naturale 50cl",
+                "price": "1,00€"
+            },
+            {
+                "name": "Acqua Gassata 50cl",
+                "price": "1,00€"
+            },
+            {
+                "name": "Red Bull 33cl",
+                "price": "3,00€"
+            },
+            {
+                "name": "Coca Cola 33cl",
+                "price": "2,50€"
+            },
+            {
+                "name": "Fanta 33cl",
+                "price": "2,50€"
+            },
+            {
+                "name": "Tea limone 33cl",
+                "price": "2,50€"
+            },
+            {
+                "name": "Tea Pesca 33cl",
+                "price": "2,50€"
+            },
+            {
+                "name": "Powerade 50cl",
+                "price": "3,00€"
+            }
+        ],
+        "alcoholic": [
+            {
+                "name": "Birra",
+                "price": "5,00€"
+            },
+            {
+                "name": "Gin Tonic",
+                "price": "6,00€"
+            },
+            {
+                "name": "Gin Lemon",
+                "price": "6,00€"
+            },
+            {
+                "name": "Vodka Lemon",
+                "price": "6,00€"
+            },
+            {
+                "name": "Vodka Redbull",
+                "price": "6,00€"
+            },
+            {
+                "name": "Moscow Mule",
+                "price": "7,00€"
+            },
+            {
+                "name": "London Mule",
+                "price": "7,00€"
+            }
+        ]
+        
+    }
+]

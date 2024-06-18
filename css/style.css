@@ -1,67 +1,152 @@
+:root {
+    --main-bg-color: #203562;
+    --main-text-color: #fff;
+    --other-bg-color: #f14a24;
+}
+
 body {
-    background-color: #203260;
-    color: white;
-    font-family: Arial, sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 	padding: 0;
 }
 
+.navbar {
+    position: fixed;
+    width:100%;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+.navbar-brand img {
+    max-height: 40px; 
+    width: auto;
+    margin-top: -10px; 
+    margin-bottom: -10px;
+}   
+
 .container {
-    max-width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px;
     padding: 20px;
 }
 
-.logo {
-    text-align: center;
-    margin-bottom: 20px;
+.logo {text-align: center;}
+
+.menu {width: 100%;}
+
+#price {text-align: right;}
+
+p { 
+    margin:0;
+    font-size: 1.2em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    padding:20px;
+    padding-top:15px;
 }
 
-.menu {
+.col-md-2, .col-md-6, .col-md-4 {
+    padding:10px;
+    overflow:hidden;
+}
+
+img{pointer-events: none;}
+
+.img {    
+    float:left;
+}
+
+#footer {
+    margin-top:10vh;
+    text-align: center;
+}
+
+#circle {
+    transform-origin: center;
+    animation: rotate-circle 10s linear infinite;
+}
+
+@keyframes rotate-circle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    
+/* info.html calendar */
+.month-indicator {
+    color: var(--main-text-color);
+    text-align: center;
+    font-weight: bold;
+}
+.day-of-week,
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.day-of-week {
+    margin-top: 1.25em;
+}
+.day-of-week > * {
+    font-size: 0.85em;
+    color: var(--main-text-color);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.date-grid {
+    margin-top: 0.5em;
+    background-color: transparent;
+}
+.date-grid button:first-child {
+    grid-column: 7;
+}
+.date-grid button {
+    position: relative;
+    border: 0;
+    width: 4.5ch;
+    height: 4.5ch;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--main-text-color); 
+}
+.calendar {
+    max-width: 65vw;
+    margin:auto;
+    font-variant: small-caps;
+}
+.date-grid .eventDays {
+    background-color: var(--other-bg-color);
+}
+.parent-div {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
-.column {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-table {
-    width: 100%;
-}
-
-th, td {
-    padding: 5px;
-}
-
-th {
-    background-color: #203260;
-    color: white;
-}
-
-.description {
-    font-size: 12px;
-    margin-top: 5px;
-    white-space: pre-line;
-}
-
-.price {
-    text-align: right;
-}
-
-.logo-table {
-    text-align: center;
-}
-
-.footer {
-	margin: 0 auto;
-	background-color: white;
-	width: 100%;
-	margin-top: 20px;
-}
-
-img {
-    pointer-events: none;
+@media screen and (max-width: 600px) {
+    .calendar {
+        min-width: 40vw;        
+        background-color: transparent;
+    }
+    .month-indicator {
+        text-align: center;
+        font-weight: bold;
+    }
+    .day-of-week,
+    .date-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .day-of-week {
+        margin-top: 1.25em;
+    }
+    .date-grid .eventDays {
+        background-color: var(--other-bg-color);
+        border-radius: 80%;
+    }
 }
