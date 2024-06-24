@@ -24,6 +24,7 @@ body {
 footer {
     background-color: var(--main-text-color);
     color:var(--other-text-color);
+    width:100%;
     overflow-x: hidden;
 }
 .col-4 {
@@ -43,6 +44,7 @@ footer {
     margin-bottom: 10vh;
     padding:0;
 }
+.container-fluid {background-color: var(--main-text-color);}
 
 .logo {text-align: center;}
 
