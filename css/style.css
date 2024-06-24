@@ -70,17 +70,9 @@ img {
     text-align: center;
 }
 
-#circle {
-    transform-origin: center;
-    animation: rotate-circle 10s linear infinite;
-}
-
-@keyframes rotate-circle {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
     }
 }
 
