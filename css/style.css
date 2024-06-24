@@ -5,7 +5,7 @@
     --other-bg-color: #f14a24;
 }
 
-* {
+html {
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -70,7 +70,7 @@ img {
     margin:20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     body {
         overflow-x: hidden;
     }
