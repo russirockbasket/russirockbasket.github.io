@@ -2,13 +2,13 @@
     {
         "pinsa": [
             {
-                "name": "Pinsa Bianca",
+                "name": "Pinsa Olio-Sale",
                 "description": "Pinsa con Olio Evo e Sale Grosso",
                 "restaurant": "Bella lì",
-                "price": "5,00€" 
+                "price": "3,00€" 
             },
             {
-                "name": "Pinsa Bianca + Affettati",
+                "name": "Pinsa con Affettato",
                 "description": "Pinsa con Olio Evo, Sale Grosso e Prosciutto Crudo o Prosciutto Cotto o Salame o Mortadella a Vs Scelta",
                 "restaurant": "Bella lì",
                 "price": "6,00€" 
@@ -20,110 +20,44 @@
                 "price": "6,00€" 
             },
             {
-                "name": "Pinsa Porcella",
+                "name": "Pinsa Salciccia",
                 "description": "Pinsa, Fior di Latte, Pomodoro e Salciccia Cotta al Forno",
                 "restaurant": "Bella lì",
                 "price": "7,00€" 
             },
             {
-                "name": "Pinsa Trivigiana",
-                "description": "Pinsa, Fior di latte, Pomodoro, Radicchio Rosso e Pancetta",
+                "name": "Pinsa Pomodorini al Basilico e Rucola",
+                "description": "",
                 "restaurant": "Bella lì",
-                "price": "8,00€" 
+                "price": "7,50€" 
             },
             {
-                "name": "Pinsa Brontella",
-                "description": "Pinsa, Stracciatella, Mortadella e granella di Pistacchio di Bronte",
-                "restaurant": "Bella lì",
-                "price": "8,00€" 
-            },
-            {
-                "name": "Pinsa Porco Silvestre",
+                "name": "Pinsa Cotto e Funghi",
                 "description": "Pinsa, Fior di Latte, Prosciutto Crudo e Funghi Freschi",
                 "restaurant": "Bella lì",
                 "price": "8,00€" 
             },
             {
-                "name": "Pinsa Porco Verde",
-                "description": "Pinsa, Fior di Latte, Rucola e Salsiccia cotta al Forno",
+                "name": "Pinsa Salsa formaggio e Salame piccante",
+                "description": "",
                 "restaurant": "Bella lì",
                 "price": "8,00€" 
-            },
-            {
-                "name": "Pinsa Porco Rosso",
-                "description": "Pinsa, Fior di Latte, Peperoni e Salsiccia cotta al Forno",
-                "restaurant": "Bella lì",
-                "price": "8,00€" 
-            },
-            {
-                "name": "Pinsa Porco&Orto",
-                "description": "Pinsa, Fior di Latte, Verdure Grigliate e Salsiccia cotta al Forno",
-                "restaurant": "Bella lì",
-                "price": "8,00€" 
-            },
-            {
-                "name": "Pinsa Foco Loco",
-                "description": "Pinsa, Fior di Latte, Salame Piccante e Peperoni",
-                "restaurant": "Bella lì",
-                "price": "8,00€" 
-            },
-            {
-                "name": "Pinsa Primavera",
-                "description": "Pinsa, Pomodorini, Rucola e Grana",
-                "restaurant": "Bella lì",
-                "price": "7,00€" 
-            },
-            {
-                "name": "Pinsa Veggie",
-                "description": "Pinsa, Squacquerone e Rucola",
-                "restaurant": "Bella lì",
-                "price": "7,00€" 
             }
         ],
-        "T.I.B": [
+        "piadina": [
             {
-                "name": "T.I.B Con Affettati",
-                "description": "Panino con Prosciutto Crudo o Prosciutto Cotto o Salame o Mortadella a Vs scelta",
+                "name": "Piadina con Affettato",
+                "description": "",
                 "restaurant": "Bella lì",
                 "price": "5,00€" 
             },
             {
-                "name": "T.I.B Italia",
-                "description": "Panino con Pomodoro Fresco, Rucola e Squacquerone",
-                "restaurant": "Bella lì",
-                "price": "5,00€" 
-            },
-            {
-                "name": "T.I.B Sfizioso",
-                "description": "Panino con Prosciutto Crudo e Mozzarella",
+                "name": "Piadina con Affettato e Formaggio",
+                "description": "",
                 "restaurant": "Bella lì",
                 "price": "6,00€" 
-            },
-            {
-                "name": "T.I.B Brontello",
-                "description": "Panino con Mortadella, Stracciatella e Pistacchio di Bronte",
-                "restaurant": "Bella lì",
-                "price": "6,00€" 
-            },
-            {
-                "name": "T.I.B Montanaro",
-                "description": "Panino con Speck, Brie e Rucola",
-                "restaurant": "Bella lì",
-                "price": "6,00€" 
-            },
-            {
-                "name": "T.I.B Goloso",
-                "description": "Panino con Salame e Gorgonzola",
-                "restaurant": "Bella lì",
-                "price": "6,00€" 
-            },
-            {
-                "name": "T.I.B Lussurioso",
-                "description": "Panino Crema di Avocado e Salmone Affumicato",
-                "restaurant": "Bella lì",
-                "price": "7,00€" 
             }
         ],
-        "info": "Peso Pinsa: 230gr. \nPeso T.I.B: 130gr.\nAllergeni: Cereali contenenti Glutine (Pane), Latte (Formaggio), Soia e Uova (Salse)"
+        "info": "Peso Pinsa: 230gr. \nAllergeni: Cereali contenenti Glutine (Pane), Latte (Formaggio), Soia e Uova (Salse)"
     }
 ]

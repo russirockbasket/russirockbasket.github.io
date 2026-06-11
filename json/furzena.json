@@ -32,7 +32,7 @@
                 "price": "12,00€" 
             },
             {
-                "name": "Garganelli pomini e scalogno",
+                "name": "Gnocchi Pomini e Scalogno",
                 "description": "",
                 "restaurant": "Furzena",
                 "price": "8,00€" 
@@ -44,7 +44,7 @@
                 "price": "7,00€"
             }
         ],
-        "dolci": [
+        "dolce": [
             {
                 "name": "Zuppa inglese",
                 "description": "Crema pasticcera, savoiardi",
