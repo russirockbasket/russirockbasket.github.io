@@ -29,6 +29,7 @@ const getData = async () => {
 };
 
 const data = getData();
+const menuList = ["furzena", "bluengreen", "bella-li", "bevande", "gelato"];
 
 // funzioni ausiliarie
 function clearMenu() {
@@ -37,7 +38,6 @@ function clearMenu() {
 }
 
 function fillAll(data) {
-    const menuList = ["furzena", "bluengreen", "bella-li", "bevande", "gelato"];
     data.forEach((d, index) => 
         fillMenu(menuList[index],d)
     );
@@ -69,11 +69,11 @@ function fillMenu(btnId, data) {
     const titoletti = Object.keys(data[0]);
     titoletti.forEach((title) => {
         if (String(title) !== "info") {
-            let h3 = document.createElement("h3");
-            h3.className = "title"
-            h3.textContent = String(title).charAt(0).toUpperCase() + title.slice(1);
+            let h2 = document.createElement("h2");
+            h2.className = "title"
+            h2.textContent = String(title).charAt(0).toUpperCase() + title.slice(1);
 
-            menu.appendChild(h3);
+            menu.appendChild(h2);
         }
         const items = data[0][title];
         if (Array.isArray(items)) {
@@ -108,7 +108,7 @@ function fillMenu(btnId, data) {
 
 function handleClick(btnId) {
     clearMenu();
-    const menuList = ["furzena", "bluengreen", "bella-li", "bevande", "gelato"];
+    
     data.then(data => {
         if (btnId === "generale") {
             fillAll(data);
