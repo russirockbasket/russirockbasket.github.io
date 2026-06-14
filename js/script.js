@@ -2,8 +2,8 @@ const jsonFiles = [
     './json/furzena.json',
     './json/blue.json',
     './json/bella-li.json',
-    './json/bevande.json',
-    './json/gelato.json'
+    './json/gelato.json',
+    './json/bevande.json'
 ];
 
 var dataCache = jsonFiles.map(file =>
@@ -29,7 +29,7 @@ const getData = async () => {
 };
 
 const data = getData();
-const menuList = ["furzena", "bluengreen", "bella-li", "bevande", "gelato"];
+const menuList = ["furzena", "bluengreen", "bella-li", "gelato", "bevande"];
 
 // funzioni ausiliarie
 function clearMenu() {

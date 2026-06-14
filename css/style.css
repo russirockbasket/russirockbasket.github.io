@@ -3,6 +3,7 @@
     --text-color: #fff;
     --button-color: #f15f2c;
     --hover-color:#cf471d;
+    --header-color:#203562;
 }
 
 body {
@@ -14,11 +15,18 @@ body {
     height: 100%;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--header-color);
+    padding:5px;
+}
+
 small {
     font-family: "Lato", sans-serif;
 }
 
 .container-fluid {
+    width: 100vw;
     height: 100vh;
 }
 
@@ -56,35 +64,43 @@ small {
 }
 
 .button-container {
-    padding: 5vh;
     width: 100%;
     display: flex; 
     margin: 0 auto;
     align-items: center;
     white-space: nowrap;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
-    padding: 10px 20px;
+    padding: 10px 0;
     gap:10px;
-    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.btn-group {
+    scroll-snap-align: center;
+    display: inline-flex;
+    gap:10px;
+    margin:0 5vw 0 5vw;
+    flex-shrink: 0;
+    width: calc(3 * 130px + 2 * 10px);
 }
 
 .btn {
     background-color: var(--button-color);
     color: var(--text-color);
-    display: inline-block;
     align-items: center;
     justify-content: flex-start; 
     cursor: pointer;
     border-radius: 5px;
     flex-shrink: 0;
-    -webkit-tap-highlight-color: transparent; 
     user-select: none;
     outline: none;
-    scroll-snap-align: start;
-    padding:8px 15px;
-    font-size: 17px;
+    padding:10px 25px;
+    font-size: 15px;
+    min-width: 130px;
 }
+
 .btn:hover, .active { 
     background-color: var(--hover-color) !important;
     color:white !important;
@@ -119,7 +135,6 @@ small {
 
 .price {
     text-align: right;
-    margin-right: 10px;
 }
 
 .other {
@@ -129,4 +144,31 @@ small {
 .avviso {
     margin-top: 20px;
     text-align: center;
+}
+
+footer {
+    background-color: var(--header-color);
+    height: 5vh;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media (min-width:992px) {
+    .button-container {
+        width: 100%;
+        display: flex; 
+        margin: 0 auto;
+        align-items: center;
+        white-space: nowrap;
+        padding: 10px 0;
+        gap:10px;
+        justify-content: center;
+    }
+
+    .btn-group {
+        margin: 0;
+        width: auto;
+    }
+
 }

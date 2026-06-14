@@ -38,6 +38,7 @@
                 "price": "4,00€" 
             }
         ],
+        "info": "I panini sono serviti con patatine fritte. \nUniche variazione ammesse: NO CIPOLLA e/o NO SALSE. *È possibile chiedere pane senza glutine.",
         "dolce": [
             {
                 "name": "Mousse allo Yogurt con mango e granola",
@@ -45,7 +46,6 @@
                 "restaurant": "Blue'n Green Pub",
                 "price": "5,00€" 
             }
-        ],
-        "info": "I panini sono serviti con patatine fritte. \nUniche variazione ammesse: NO CIPOLLA e/o NO SALSE. *È possibile chiedere pane senza glutine."
+        ]
     }
 ]
