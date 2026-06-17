@@ -10,7 +10,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--text-color);
     font-family: "Lora", serif;
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     height: 100%;
 }
@@ -23,6 +23,7 @@ h2 {
 
 small {
     font-family: "Lato", sans-serif;
+    font-style: italic;
 }
 
 .container-fluid {
@@ -129,10 +130,6 @@ small {
     font-weight: bold;
 }
 
-small {
-    font-style: italic;
-}
-
 .price {
     text-align: right;
 }
@@ -146,12 +143,11 @@ small {
     text-align: center;
 }
 
-footer {
-    background-color: var(--header-color);
-    height: 5vh;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
+.curved-text {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    font-weight: bold;
 }
 
 @media (min-width:992px) {

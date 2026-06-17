@@ -102,6 +102,8 @@ function fillMenu(btnId, data) {
             menu.appendChild(div);
         }
     });
+    let hr = document.createElement("hr");
+    menu.appendChild(hr);
 
     container.appendChild(menu);
 }
@@ -114,7 +116,6 @@ function handleClick(btnId) {
             fillAll(data);
         } else
             fillMenu(btnId, data[menuList.indexOf(btnId)])
-        
     });
 }
 
