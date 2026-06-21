@@ -5,13 +5,13 @@
                 "name": "Cheesebacon Burger*",
                 "description": "Pan bioche di San Patrignano, Scottona 200g, bacon, cheddar, pomodoro, lattuga, cipolla stufata, maionese, ketchup",
                 "restaurant": "Blue'n Green Pub",
-                "price": "13,00€" 
+                "price": "14,00€" 
             },
             {
                 "name": "Grill Burger*",
                 "description": "Puccia pugliese, Burger di salciccia 220g, cipolla stufata, scamorza affumicata, patate arrosto e salsa Bbq",
                 "restaurant": "Blue'n Green Pub",
-                "price": "10,00€" 
+                "price": "13,00€" 
             },
             {
                 "name": "Hotdog*",
@@ -23,13 +23,13 @@
                 "name": "Burrito San Diego",
                 "description": "Tortilla con Cotoletta di pollo, lattuga e dressing allo yogurt",
                 "restaurant": "Blue'n Green Pub",
-                "price": "9,00€" 
+                "price": "7,00€" 
             },
             {
                 "name": "Maxi Tex Potatoes",
                 "description": "Patatine fritte con cheddar fuso e bacon croccante",
                 "restaurant": "Blue'n Green Pub",
-                "price": "4,50€" 
+                "price": "10,00€" 
             },
             {
                 "name": "Patatine fritte",
@@ -44,7 +44,7 @@
                 "name": "Mousse allo Yogurt con mango e granola",
                 "description": "",
                 "restaurant": "Blue'n Green Pub",
-                "price": "5,00€" 
+                "price": "6,00€" 
             }
         ]
     }

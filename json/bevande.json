@@ -51,6 +51,10 @@
         ],
         "alcolici": [
             {
+                "name": "Vino Bianco",
+                "price": "3,00€"
+            },
+            {
                 "name": "Birra",
                 "price": "5,00€"
             },
