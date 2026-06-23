@@ -3,7 +3,7 @@
         "secondi": [
             {
                 "name": "Cheesebacon Burger*",
-                "description": "Pan bioche di San Patrignano, Scottona 200g, bacon, cheddar, pomodoro, lattuga, cipolla stufata, maionese, ketchup",
+                "description": "Pan brioche di San Patrignano, Scottona 200g, bacon, cheddar, pomodoro, lattuga, cipolla stufata, maionese, ketchup",
                 "restaurant": "Blue'n Green Pub",
                 "price": "14,00€" 
             },
@@ -15,7 +15,7 @@
             },
             {
                 "name": "Hotdog*",
-                "description": "Pan bioche di San Patrignano, Wurstel meraner, maionese e ketchup",
+                "description": "Pan brioche di San Patrignano, Wurstel meraner, maionese e ketchup",
                 "restaurant": "Blue'n Green Pub",
                 "price": "8,00€" 
             },
@@ -38,7 +38,7 @@
                 "price": "4,00€" 
             }
         ],
-        "info": "Panini e Hotdog sono serviti con patatine fritte. \n*Variazione ammesse: NO CIPOLLA e/o NO SALSE. Svizzera Vegetale. Pane senza Glutine (+1,00€)",
+        "info": "Panini e Hotdog sono serviti con patatine fritte. \n*Variazioni ammesse: NO CIPOLLA e/o NO SALSE. Svizzera Vegetale. Pane senza Glutine (+1,00€)",
         "dolce": [
             {
                 "name": "Mousse allo Yogurt con mango e granola",
