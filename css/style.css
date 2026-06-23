@@ -15,10 +15,13 @@ body {
     height: 100%;
 }
 
-h2 {
+.title {
     font-family: "Montserrat", sans-serif;
     background-color: var(--header-color);
     padding:5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0 25px 0;
 }
 
 small {
@@ -43,12 +46,6 @@ small {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-}
-
-.title {
-    font-weight: bold;
-    text-align: center;
-    margin: 25px 0 25px 0;
 }
 
 .scelta { 

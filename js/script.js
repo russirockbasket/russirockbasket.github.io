@@ -69,11 +69,11 @@ function fillMenu(btnId, data) {
     const titoletti = Object.keys(data[0]);
     titoletti.forEach((title) => {
         if (String(title) !== "info") {
-            let h2 = document.createElement("h2");
-            h2.className = "title"
-            h2.textContent = String(title).charAt(0).toUpperCase() + title.slice(1);
+            let h3 = document.createElement("h3");
+            h3.className = "title"
+            h3.textContent = String(title).charAt(0).toUpperCase() + title.slice(1);
 
-            menu.appendChild(h2);
+            menu.appendChild(h3);
         }
         const items = data[0][title];
         if (Array.isArray(items)) {
