@@ -2,7 +2,6 @@ const jsonFiles = [
     './json/furzena.json',
     './json/blue.json',
     './json/bella-li.json',
-    './json/gelato.json',
     './json/bevande.json'
 ];
 
@@ -29,7 +28,7 @@ const getData = async () => {
 };
 
 const data = getData();
-const menuList = ["furzena", "bluengreen", "bella-li", "gelato", "bevande"];
+const menuList = ["furzena", "bluengreen", "bella-li", "bevande"];
 
 // funzioni ausiliarie
 function clearMenu() {
